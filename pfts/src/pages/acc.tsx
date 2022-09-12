@@ -27,6 +27,11 @@ const myHtml2 = <div>
 </div>
 </div>
 
+
+const Chpg=()=> <div>
+{myHtml2}
+</div>
+
 const myHtml = 
 <div>
   <meta charSet="UTF-8" />
@@ -59,21 +64,13 @@ const myHtml =
   </div>
  
 </div>
+
+
+
+
 const Accueil=()=> <div> {myHtml
       
 }</div>
-
-
-var button = document.getElementById("btn")
-function Chpg(params:type) {
-  if ( button.click()){
-    const Terminal: any
-  }else{
-  
-
-const Accueil=()=> <div> {myHtml
-      
-}</div>}}
 
  
 export default Accueil
