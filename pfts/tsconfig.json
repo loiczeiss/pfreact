@@ -23,5 +23,5 @@
   },
   "include": [
  "webpack.config.js"    ,"src"
-  ]
+, "src/pages/script/termiNom.ts"  ]
 }

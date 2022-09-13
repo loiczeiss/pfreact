@@ -65,6 +65,8 @@ text-align: center;
   font-size: 300%;
   display: inline;
   color: rgba(254,168,17,255);
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+               1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
   grid-row: 2/3;
  justify-self: center;
  align-self: center;
@@ -76,7 +78,9 @@ text-align: center;
 .exp{
 
 text-align: center;
-color: rgba(238, 13, 13, 0.685);
+color: rgba(254,168,17,255);
+text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+               1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 justify-self: center;
 align-self: center;
 font-size: 40px;

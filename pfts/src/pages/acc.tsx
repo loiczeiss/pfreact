@@ -3,14 +3,14 @@ import ReactDOM from "react-dom";
 
 import Terminal from "./terminal";
 
- const Chpg=()=> 
+ /*const Chpg=()=> 
 {ReactDOM.render(
   <div>
   <Terminal />
   </div>,
     document.getElementById("root")
   );
-}
+}*/
 
 
 const myHtml = 
@@ -32,7 +32,7 @@ const myHtml =
 <label >
   
   <input className="check" type="checkbox" />
-  <div className="btn"  onClick={Chpg}>
+  <div className="btn"  /*onClick={Chpg}*/>
 
     <span className="me">Start the experience</span>
     <span className="mo">Hang on a moment, processing brain's connection</span>
