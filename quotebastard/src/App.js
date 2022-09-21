@@ -14,10 +14,11 @@ function App() {
 
 
   return (
-    <div className="note" >
+   
 <Quote/>
-    </div>
+
   );
 }
 
 export default App;
+

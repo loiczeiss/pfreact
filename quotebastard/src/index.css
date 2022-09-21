@@ -1,6 +1,28 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: "CircularStd-Bold";
+  src: url(./fonts/CircularStd-Bold.otf);
+
+}
+
+
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url(./fonts/CircularStd-Book.otf);
+
+}
+
+@font-face {
+  font-family: "BreeSerif-Regular";
+  src: url(./fonts/BreeSerif-Regular.ttf);
+
+}
+
 
 body {
   margin: 0;
@@ -9,9 +31,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
 }
